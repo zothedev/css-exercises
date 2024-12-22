@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   /* added */
+  padding: 8px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -14,15 +15,14 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  /* added */
-  margin: 10px auto;
-  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   /* added */
+  display: flex;
+  gap: 8px;
   margin: 0;
   padding: 0;
 }
@@ -33,14 +33,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-/* added */
-
-.left-links ul, 
-.right-links ul {
-  display: flex;
-  gap: 15px;
-  margin: 0 10px;
-
 }
