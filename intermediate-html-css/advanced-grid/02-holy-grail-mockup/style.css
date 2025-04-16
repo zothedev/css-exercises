@@ -17,6 +17,28 @@
 
 .header {
   background-color: #393f4d;
+
+  /* added */
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+/* added */
+.header .logo {
+  justify-self: start;
+}
+
+/* added */
+.menu ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 40px;
+  align-items: center;
+}
+
+/* added */
+.header li, .nav li{
+  list-style-type: none;
 }
 
 .menu ul,
